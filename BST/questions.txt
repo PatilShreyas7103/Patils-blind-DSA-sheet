@@ -13,7 +13,7 @@ https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/
 https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 5. Delete Node in a Binary Search Tree
-https://leetcode.com/problems/delete-node-in-a-binary-search-tree/
+https://leetcode.com/problems/delete-node-in-a-bst/
 
 6. Kth Smallest Element in a BST
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
@@ -107,6 +107,8 @@ https://leetcode.com/problems/unique-binary-search-trees-ii/
 
 36. Preorder to BST
 https://www.geeksforgeeks.org/problems/preorder-to-postorder4423/1
+
+
 
 // Not attempted:
 1569. Number of Ways to Reorder Array to Get Same BST

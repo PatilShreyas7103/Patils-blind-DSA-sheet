@@ -73,7 +73,7 @@ https://www.geeksforgeeks.org/convert-tree-children-sum-property/
 https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
 25. Minimum Time to Burn a Binary Tree
-https://www.geeksforgeeks.org/minimum-time-to-burn-a-tree-starting-from-a-target-node/
+https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 
 26. Count Nodes in Complete Binary Tree
 https://leetcode.com/problems/count-complete-tree-nodes/
