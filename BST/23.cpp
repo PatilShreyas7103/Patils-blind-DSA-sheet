@@ -84,6 +84,63 @@ public:
     }
 };
 
+// BST Serialize & Deserialize (Using Your Bounds Method)
+
+class Codec {
+public:
+
+    // --------- SERIALIZE (Preorder) ----------
+    void preorder(TreeNode* root, string &s) {
+        if (!root) return;
+        s += to_string(root->val) + ",";
+        preorder(root->left, s);
+        preorder(root->right, s);
+    }
+
+    string serialize(TreeNode* root) {
+        string s = "";
+        preorder(root, s);
+        return s;
+    }
+
+
+    // --------- DESERIALIZE ----------
+    
+    TreeNode* solve(vector<int> &p, int &id, int n, long long mn, long long mx) {
+        if (id >= n)
+            return NULL;
+
+        if (p[id] <= mn || p[id] >= mx)
+            return NULL;
+
+        TreeNode* temp = new TreeNode(p[id++]);
+
+        temp->left  = solve(p, id, n, mn, temp->val);
+        temp->right = solve(p, id, n, temp->val, mx);
+
+        return temp;
+    }
+
+    TreeNode* deserialize(string data) {
+        if (data.empty()) return NULL;
+
+        // Convert string to vector<int>
+        vector<int> preorder;
+        stringstream ss(data);
+        string token;
+
+        while (getline(ss, token, ',')) {
+            if (!token.empty())
+                preorder.push_back(stoi(token));
+        }
+
+        int id = 0;
+        int n = preorder.size();
+
+        return solve(preorder, id, n, LLONG_MIN, LLONG_MAX);
+    }
+};
+
 // ✅ Example usage for VS Code
 int main() {
     Codec ser, deser;
