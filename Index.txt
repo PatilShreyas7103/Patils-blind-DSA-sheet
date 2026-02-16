@@ -1,0 +1,17 @@
+1. Arrays -> 70
+2. Binary Search -> 45
+3. Binary Trees -> 66
+4. BST -> 37
+5. DP -> 75
+6. Graphs -> 72
+7. Greedy -> 18
+8. Heaps -> 30
+9. Linked List -> 42
+10. Recursion -> 30
+11. Sliding window and 2 pointer -> 21
+12. Stack and Queue -> 46
+13. Strings -> 38
+14. Trie -> 14
+
+
+Total : 604
