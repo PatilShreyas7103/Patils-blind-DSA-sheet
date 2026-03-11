@@ -105,9 +105,6 @@ https://www.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/1
 35. Unique Binary Search Trees II
 https://leetcode.com/problems/unique-binary-search-trees-ii/
 
-36. Preorder to BST
-https://www.geeksforgeeks.org/problems/preorder-to-postorder4423/1
-
 
 
 // Not attempted:
