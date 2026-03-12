@@ -1,10 +1,10 @@
 **************** Graphs **************
 
 1. BFS Traversal
-https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
 
 2. DFS Traversal
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
 
 3. Number of Provinces
 https://leetcode.com/problems/number-of-provinces/
@@ -41,13 +41,13 @@ https://leetcode.com/problems/number-of-islands/
 https://leetcode.com/problems/is-graph-bipartite/
 
 14. Detect Cycle in Directed Graph (DFS)
-https://www.geeksforgeeks.org/detect-cycle-direct-graph-using-dfs/
+https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 15. Topological Sort (DFS & Kahn’s Algorithm)
-https://www.geeksforgeeks.org/topological-sorting/
+https://www.geeksforgeeks.org/problems/topological-sort/1
 
 16. Detect Cycle in Directed Graph using Topo Sort (Kahn’s)
-https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-kahns-algorithm/
+https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 
 17. Course Schedule I
 https://leetcode.com/problems/course-schedule/
