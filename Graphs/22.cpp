@@ -1,4 +1,4 @@
-#// Shortest path in Directed Acyclic Graph (DAG)
+// Shortest path in Directed Acyclic Graph (DAG)
 // Link: https://www.geeksforgeeks.org/shortest-path-directed-acyclic-graph/
 
 #include <bits/stdc++.h>

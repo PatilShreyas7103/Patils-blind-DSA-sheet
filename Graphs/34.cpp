@@ -95,3 +95,71 @@ public:
         }
     }
 };
+
+
+
+class DSU
+{
+public:
+    vector<int> par;
+    vector<int> rank;
+    vector<int> size;
+
+    DSU(int n)
+    {
+        par.resize(n);
+        for(int i=0; i<n; i++)
+        {
+            par[i] = i;
+        }
+        rank.resize(n,0);
+        size.resize(n,1);
+    }
+
+    int FindUpar(int node)
+    {
+        if(par[node]==node)
+        {
+            return node;
+        }
+
+        return par[node] =  FindUpar(par[node]);
+    }
+
+    void UnionByRank(int a, int b)
+    {
+        int ulpa = FindUpar(a);
+        int ulpb = FindUpar(b);
+
+        if(rank[ulpa]==rank[ulpb])
+        {
+            rank[ulpa]++;
+            par[ulpb] = ulpa;
+        }
+        else if(rank[ulpa]>rank[ulpb])
+        {
+            par[ulpb] = ulpa;
+        }
+        else 
+        {
+            par[ulpa] = ulpb;
+        }
+    }
+
+    void UnionBySize(int a, int b)
+    {
+        int ulpa = FindUpar(a);
+        int ulpb = FindUpar(b);
+
+        if(size[ulpa]<size[ulpb])
+        {
+            size[ulpb]+= size[ulpa];
+            par[ulpa] = ulpb;
+        }
+        else 
+        {
+            size[ulpa]+= size[ulpb];
+            par[ulpb] = ulpa;
+        }
+    }
+};

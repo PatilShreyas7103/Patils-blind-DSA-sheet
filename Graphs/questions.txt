@@ -59,10 +59,10 @@ https://leetcode.com/problems/course-schedule-ii/
 https://leetcode.com/problems/find-eventual-safe-states/
 
 20. Alien Dictionary
-https://www.geeksforgeeks.org/alien-dictionary/
+https://www.geeksforgeeks.org/problems/alien-dictionary/1
 
 21. Shortest Path in Undirected Graph with Unit Weights
-https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1
 
 22. Shortest Path in DAG
 https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
@@ -215,4 +215,3 @@ https://www.geeksforgeeks.org/problems/hamiltonian-path2522/1?page=2&category=Gr
 
 72. Number of Closed Islands
 https://leetcode.com/problems/number-of-closed-islands/
-
