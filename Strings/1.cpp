@@ -1,15 +1,9 @@
 // Length of Last Word
 
+#include <iostream>
 #include <string>
 using namespace std;
 
-/*
-Approach: Backward Traversal
-- Skip trailing spaces
-- Count characters until next space or start
-Time: O(N)
-Space: O(1)
-*/
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -27,3 +21,16 @@ public:
         return len;
     }
 };
+
+int main() {
+    Solution obj;
+
+    string s;
+    cout << "Enter a string: ";
+    getline(cin, s);
+
+    int result = obj.lengthOfLastWord(s);
+    cout << "Length of last word: " << result << endl;
+
+    return 0;
+}
