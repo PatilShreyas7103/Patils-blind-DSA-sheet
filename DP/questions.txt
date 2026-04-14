@@ -141,7 +141,7 @@ https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 47. Burst Balloons
 https://leetcode.com/problems/burst-balloons/
 
-48.Evaluate Boolean Expression to True
+48. Evaluate Boolean Expression to True
 https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1
 
 49. Palindrome Partitioning II
